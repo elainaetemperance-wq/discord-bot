@@ -27,6 +27,7 @@ const COMMANDS = {
   "!gk": "Everyone kneel down to our queen, GoKart",
   "!cheezy": "Soon, *OUR* Cheezy",
   "!beer": "Take a FST beer my dear friend !",
+  "!ariel": "Best wifey of FST",
 };
 
 let channelCache = null;
