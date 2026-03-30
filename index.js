@@ -12,12 +12,12 @@ const client = new Client({
 const TOKEN = process.env.TOKEN;
 const CHANNEL_ID = process.env.CHANNEL_ID;
 
-// IDs des rôles
+// Ids Role
 const ROLE_TRAP_1 = "<@&1462315632019247156>";
 const ROLE_TRAP_2 = "<@&1462315838093791423>";
 const ROLE_ARENA = "<@&1466790142927962238>";
 
-// Dates d'envoi
+// Date send
 let lastSentEvening = null;
 let lastSentMorning = null;
 
