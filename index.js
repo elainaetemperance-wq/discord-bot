@@ -77,6 +77,11 @@ client.on("messageCreate", async message => {
     return;
   }
 
+  if (content === "!Prax") {
+    await message.reply("Take a beer with me my friend !");
+    return;
+  }
+
   if (content === "!ping arena") {
     const channel = await client.channels.fetch(CHANNEL_ID);
     await channel.send(`${ROLE_ARENA} Beep Boop Arena reminder ! (test)`);
