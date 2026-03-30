@@ -29,7 +29,7 @@ client.once("ready", async () => {
 
   // Trap 1 — 20h15 tous les 2 jours
 cron.schedule(
-  "15 20 1-31/2 * *",
+  "15 21 1-31/2 * *",
   () => {
     channel.send(`${ROLE_TRAP_1} 15 minutes before losing to trap 2, beep boop`);
   },
@@ -39,7 +39,7 @@ cron.schedule(
 
   // Trap 2 — 10h15 tous les 2 jours
 cron.schedule(
-  "15 10 2-30/2 * *",
+  "15 11 2-30/2 * *",
   () => {
     channel.send(`${ROLE_TRAP_2} 15 minutes before bear hunt to beat trap 1, beep boop`);
   },
@@ -49,7 +49,7 @@ cron.schedule(
 
   // Arena — tous les jours à 0h30
   cron.schedule(
-    "30 0 * * *",
+    "30 1 * * *",
     () => {
       channel.send(`${ROLE_ARENA} Beep Boop Arena reminder !`);
     },
@@ -58,7 +58,7 @@ cron.schedule(
 
 
    cron.schedule(
-    "0 21 * * *",
+    "0 22 * * *",
     () => {
       channel.send(`${ROLE_ARENA} Beep Boop Arena reminder ! 4hours before reset, if you go to sleep`);
     },
