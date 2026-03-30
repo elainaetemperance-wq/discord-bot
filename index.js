@@ -77,7 +77,7 @@ client.on("messageCreate", async message => {
     return;
   }
 
-  if (content === "!Prax") {
+  if (content === "!prax") {
     await message.reply("Take a beer with me my friend !");
     return;
   }
@@ -98,6 +98,11 @@ client.on("messageCreate", async message => {
     return;
   }
 
+  if (content === "!cheezy") {
+    await message.reply("Soon, *OUR* Cheezy");
+    return;
+  }
+
    if (content === "!beer") {
     await message.reply("Take a FST beer my dear friend !");
     return;
@@ -106,6 +111,3 @@ client.on("messageCreate", async message => {
 
 
 client.login(TOKEN);
-
-
-
