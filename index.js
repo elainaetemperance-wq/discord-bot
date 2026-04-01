@@ -75,12 +75,12 @@ client.once("ready", async () => {
 
   // Schedules
   scheduleMessage(
-    "15 21 1-31/2 * *",
+    "15 20 2-30/2 * *",
     `${ROLES.TRAP_1} 15 minutes before losing to trap 2, beep boop`
   );
 
   scheduleMessage(
-    "15 11 2-30/2 * *",
+    "15 11 1-31/2 * *",
     `${ROLES.TRAP_2} 15 minutes before bear hunt to beat trap 1, beep boop`
   );
 
